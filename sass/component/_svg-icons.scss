@@ -1,0 +1,45 @@
+.menu_icon{
+    fill: #818181;
+    vertical-align: bottom;
+    width: 2rem;
+    height: 2rem;
+    margin-right: .8rem;
+    margin-left: .5rem;
+}
+
+
+.menu-drop-icon{
+    fill: #f1f1f1;
+    vertical-align: bottom;
+    width: 1.2rem;
+    height: 1.2rem;
+    float: right;
+    margin-top: .9rem;
+}
+
+.icon-rotate{
+    transform: rotate(-90deg);
+}
+
+.menu_icon__small{
+    fill: #818181;
+    vertical-align: initial;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
+
+.header_icon{
+    fill: #f1f1f1;
+    vertical-align: bottom;
+    width: 2rem;
+    height: 2rem;
+    transition: all .6s;
+
+    &:hover{
+        fill: #fff;
+        transition: all .6s;
+    }
+}
+

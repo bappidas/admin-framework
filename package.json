@@ -1,0 +1,14 @@
+{
+  "name": "admin_template",
+  "version": "1.0.0",
+  "description": "Custom Admin Template created by Assam Digital for different clients.",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss": "node-sass --watch sass/main.scss -o css"
+  },
+  "author": "Bappi Das",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

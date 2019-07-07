@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__brand">Brand Name</div>
+            <div class="header__right">
+                <span class="button">
+                    <a href="#">
+                        <svg class="header_icon">
+                            <use xlink:href="css/sprite.svg#icon-bell1"></use>
+                        </svg>
+                    </a>
+                </span>
+                <span class="button">
+                    <a href="#">
+                        <svg class="header_icon">
+                            <use xlink:href="css/sprite.svg#icon-bell1"></use>
+                        </svg>
+                    </a>
+                </span>
+                <span class="button">
+                    <a href="#">
+                        <svg class="header_icon">
+                            <use xlink:href="css/sprite.svg#icon-bell1"></use>
+                        </svg>
+                    </a>
+                </span>
+            </div>
+        </div>
+        
+    </header>
+
+    <aside class="sidebar">
+        <div class="menu-wrapper">
+            <div class="admin-profile">
+                <div class="admin-image">
+                    <img src="images/profile.jpg" alt=""  width="80%" height="auto">
+                </div>
+                <div class="admin-welcome">
+                    <div class="admin-welcome--greetings">Welcome</div>
+                    <div class="admin-name">Deepak Kumar</div>
+                </div>
+            </div>
+
+            <hr>
+
+            <nav class="main-menu">
+                <div class="menu-heading">Registration</div>
+                <div class="menu-items">
+                    <a href="#">
+                        <svg class="menu_icon">
+                            <use xlink:href="css/sprite.svg#icon-grid"></use>
+                        </svg>
+                        Dashboard
+                    </a>
+                    <a href="#">
+                        <svg class="menu_icon">
+                            <use xlink:href="css/sprite.svg#icon-user-plus"></use>
+                        </svg>
+                        Book Appointment
+                    </a>
+                    <button class="dropdown-btn">
+                        <svg class="menu_icon">
+                            <use xlink:href="css/sprite.svg#icon-users1"></use>
+                        </svg>
+                        <span>Patients</span> 
+                        <svg class="menu-drop-icon" onclick="rotateIcon(this)">
+                            <use xlink:href="css/sprite.svg#icon-chevron-thin-left"></use>
+                        </svg>
+                    </button>
+                    <div class="dropdown-container">
+                        <a href="#">
+                            <svg class="menu_icon__small">
+                                <use xlink:href="css/sprite.svg#icon-plus1"></use>
+                            </svg>
+                            Add New Patient
+                        </a>
+
+                        <a href="#">
+                            <svg class="menu_icon__small">
+                                <use xlink:href="css/sprite.svg#icon-user-check"></use>
+                            </svg>
+                            Registered Patient
+                        </a>
+                    </div>
+
+                    <button class="dropdown-btn">
+                        <svg class="menu_icon">
+                            <use xlink:href="css/sprite.svg#icon-folder-plus"></use>
+                        </svg>
+                        <span>Pharmacy</span> 
+                        <svg class="menu-drop-icon" onclick="rotateIcon(this)">
+                            <use xlink:href="css/sprite.svg#icon-chevron-thin-left"></use>
+                        </svg>
+                    </button>
+                    <div class="dropdown-container">
+                        <a href="#">
+                            <svg class="menu_icon__small">
+                                <use xlink:href="css/sprite.svg#icon-profile"></use>
+                            </svg>
+                            View Prescription
+                        </a>
+
+                        <a href="#">
+                            <svg class="menu_icon__small">
+                                <use xlink:href="css/sprite.svg#icon-shopping-cart"></use>
+                            </svg>
+                            Inventory Management
+                        </a>
+                    </div>
+                </div>
+
+                <div class="menu-heading">Doctor's Section</div>
+                <div class="menu-items">
+                    
+                    <button class="dropdown-btn">
+                        <svg class="menu_icon">
+                            <use xlink:href="css/sprite.svg#icon-new-message"></use>
+                        </svg>
+                        <span>Consultation</span> 
+                        <svg class="menu-drop-icon" onclick="rotateIcon(this)">
+                            <use xlink:href="css/sprite.svg#icon-chevron-thin-left"></use>
+                        </svg>
+                    </button>
+
+                    <div class="dropdown-container">
+                        <a href="#">
+                            <svg class="menu_icon__small">
+                                <use xlink:href="css/sprite.svg#icon-users1"></use>
+                            </svg>
+                            Appointments
+                        </a>
+
+                        <a href="#">
+                            <svg class="menu_icon__small">
+                                <use xlink:href="css/sprite.svg#icon-books"></use>
+                            </svg>
+                            Medicines Referance
+                        </a>
+                    </div>
+
+                    <button class="dropdown-btn">
+                        <svg class="menu_icon">
+                            <use xlink:href="css/sprite.svg#icon-stats-bars"></use>
+                        </svg>
+                        <span>Analytics</span> 
+                        <svg class="menu-drop-icon" onclick="rotateIcon(this)">
+                            <use xlink:href="css/sprite.svg#icon-chevron-thin-left"></use>
+                        </svg>
+                    </button>
+                    <div class="dropdown-container">
+                        <a href="#">
+                            <svg class="menu_icon__small">
+                                <use xlink:href="css/sprite.svg#icon-area-graph"></use>
+                            </svg>
+                            Clinic Reports
+                        </a>
+
+                        <a href="#">
+                            <svg class="menu_icon__small">
+                                <use xlink:href="css/sprite.svg#icon-box"></use>
+                            </svg>
+                            Inventory Reports
+                        </a>
+                    </div>
+
+                    <a href="#">
+                        <svg class="menu_icon">
+                            <use xlink:href="css/sprite.svg#icon-stopwatch"></use>
+                        </svg>
+                        Quick Consultation
+                    </a>
+
+                </div>
+
+                <div class="menu-heading">Add Ons</div>
+                <div class="menu-items">
+                    <a href="#">
+                        <svg class="menu_icon">
+                            <use xlink:href="css/sprite.svg#icon-paste"></use>
+                        </svg>
+                        Notes on Letterhead
+                    </a>
+
+                    <a href="#">
+                        <svg class="menu_icon">
+                            <use xlink:href="css/sprite.svg#icon-drop"></use>
+                        </svg>
+                        Diet Plan 
+                    </a>
+
+                    <a href="#">
+                        <svg class="menu_icon">
+                            <use xlink:href="css/sprite.svg#icon-flag"></use>
+                        </svg>
+                        Doctor's Discussion
+                    </a>
+
+                    <a href="#">
+                        <svg class="menu_icon">
+                            <use xlink:href="css/sprite.svg#icon-network"></use>
+                        </svg>
+                        Patient Connect
+                    </a>
+                </div>
+            </nav>
+            
+        </div>   
+    </aside>
+
+    <section class="main">
+        <ul id="demo">
+            <li onclick="myfunction('bappi')">Lorem ipsum dolor sit amet.</li>
+            <li onclick="myfunction('dk')">Lorem ipsum dolor sit amet consectetur.</li>
+        </ul>
+    </section>
+
+    
+
+    <footer>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore voluptates quo commodi modi eaque enim fuga natus quisquam, sint exercitationem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores quidem a non ullam nesciunt minus voluptates nisi? Nobis, facere illo?</footer>
+    
+</body>
+<script src="js/custom.js"></script>
+</html>
